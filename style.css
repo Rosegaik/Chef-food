@@ -1,0 +1,381 @@
+
+
+
+#navbarNavDropdown a
+{
+    color: white;
+border-bottom: 2px solid transparent;
+
+}
+
+#navbarNavDropdown a:hover{
+    border-bottom: 2px solid goldenrod;
+}
+#navbarNavDropdown button
+{
+    background: goldenrod;
+    padding-left: 1cm;
+    margin-left: auto;
+
+}
+
+
+
+.background-image {
+    background-image: url(' https://wallpapercave.com/wp/wp12265779.jpg');
+    background-size: cover;
+     background-position: center;
+      color: #fff;
+       padding: 100px 0px;
+        text-align: center;
+         height: 500px; }
+
+
+
+         
+
+
+#about img{
+    height: 20cm;
+    width: 15cm;
+}
+.home-content{
+    flex: 1 1 400px;
+    margin-top:30px;
+}
+
+
+
+
+
+
+.menu h1
+{
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+
+
+.row img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.card{
+    width: 250px;
+    height: 500px;
+    background: black;
+    overflow: hidden;
+    align-items:center;
+    margin: 20px 50px;
+
+}
+.menu :hover
+{
+    transform: translateY(20px);
+
+}
+
+.menu h5 {
+    color: white;
+}
+.menu li{
+    color: white;
+    position: relative;
+    transform: translateY(20px);
+
+}
+
+
+
+.menu .btn
+{
+    position: relative;
+    transform: translateY(20px);
+
+    
+}
+.menu .btn:hover{
+    background-color: coral;
+}
+.container-fluid h5
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 0.5cm;
+    padding-top: 2cm;
+    color: crimson;
+}
+.container-fluid h6
+{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:indigo;
+
+}
+ .carousel img
+{
+    height: 350px;
+    width: 90px;
+    margin:auto;
+    margin-bottom: 1cm;
+}
+
+#center video
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+
+}
+
+/**chefs**/
+#chefs h2
+{
+    text-align: center;
+    margin: 30px 30px;
+
+
+}
+#chefs h3
+{
+    
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+
+#contact img{
+    height: 100%;
+}
+.box
+{
+    width:90% !important;
+    height:80% !important;
+
+    margin-top : 100px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+
+}
+#contact input{
+    margin: 10px 0px;
+
+}
+
+#contact textarea{
+    margin: 10px 0px;
+
+}
+.contact button{
+
+    background-color: goldenrod;
+
+}
+/**map**/
+
+#map
+{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#map h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+iframe
+{
+    width: 80%;
+    height:500px;
+    filter: invert(100%);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+   
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(129, 122, 122);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #eccdcd;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: goldenrod;
+}
+
+.footer-links a:hover {
+    color: goldenrod;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+     }
+}
+
+
+
